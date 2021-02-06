@@ -1,0 +1,38 @@
+Watts-Up - 02/6/2021
+====================
+
+
+Basic premise is to learn about Ohm's, Resistence, Current, and the relationship between each other. Described in:
+			
+	I=V/R where I=Current,V=Voltage,R=Rsesistance(ohm's)
+
+Voltage and Amperage are a rating of the maximum potential of the system. The full amps are not forcibly pushed to the device unless needed IE charging device dictates amperage used, not the rating on the supply. 
+
+USB Type's and Principals:
+-------------------------
+USB-A, USB-B, USB Mini, and USB Micro all have 4 pins - GND, D+, D-, VBUS. "USB OTG" has an additional pin for OTG features, just called ID.
+
+	USB-a/B 2.0 only serves half-duplex signals, or one send and receive at a time simlar to Syn, Syn-Ack, Ack. This limits bandwidth to 480 mb/s. Later version of USB improve on the technology in the following ways:
+		USB 3.0 - Full-Duplex with one dual-lane for sending and one dual-lane for receiving. This allows both machines to talk at the same time making USB 3.0 at 5Gbit/s > 3.1 at 10Gbit/s > USB 3.2 > 20Gbit/s > USBV 3.4 > 40Gbit/s. These will quickly become obsolete/absorbed by USB-C. 
+
+USB-C - THE KING TO RULE THEM ALL:
+----------------------------------
+USB-C is reversible due to it's 24-pin layout. The "top-half" of pins contain a flipped and reverse sorted version of the "bottom-half" pins. USB0-C also contains a "config channel" which is used to help organize and process communication between the different pin protocols INSIDE the USB-C connector, AKA "backwards compatability". This is also the main reason why USB-C has so many more pins that other types. 
+
+	USB-C PD (Power Delivery): 5V, 9V, 12V, 15V, 20V with a max up to 100W/5a of power to external devices 
+
+
+TANGENT WARNING 1 - Work > Energy > Power:
+++++++++++++++++++++++++++++++++++++++++++
+What does ft. lbs. of force mean? How is that calculated?  
+	
+	WORK:
+	Let's say you move a 50lb object across 2ft of distance. What is the total "Work" being done? This is expressed by Force x Distance, or in this case FT x LBS = 100 FT. LBS of work.
+	
+	ENERGY:
+	Stored capacity to do the work above ^ . Essentially, the human pushing the 50LBS would need to have "X" energy to perform the task. 
+
+	POWER:
+	Combining both principles above, Power is simply the total amount of "potential performance" a system can have. 
+
+
